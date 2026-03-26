@@ -14,7 +14,6 @@
 8. [Security & Governance](#8-security--governance)
 9. [State Management](#9-state-management)
 10. [Key Functions Explained](#10-key-functions-explained)
-11. [Demo Walkthrough (3-Minute Script)](#11-demo-walkthrough-3-minute-script)
 
 ---
 
@@ -532,30 +531,6 @@ This returns the app to a clean state for a new deployment.
 ### `safe_rerun()`
 **What it does:** Triggers a Streamlit rerun to refresh the UI after state changes.
 **How:** Wraps `st.rerun()` (or `st.experimental_rerun()` for older versions) with error handling.
-
----
-
-## 11. Demo Walkthrough (3-Minute Script)
-
-### Opening (30 seconds)
-> "Platform setup in Snowflake — databases, schemas, warehouses, roles, grants — typically means hundreds of lines of hand-written SQL, no standardization, and no validation. **This app fixes that.**"
-
-### Show the Flow (2 minutes)
-
-1. **Configure** (20s) — "Pick a template, choose an AI model, fill in your requirements. Guided form — no guesswork."
-
-2. **Generate** (20s) — "One click — Cortex Complete generates all the SQL: DDL, grants, warehouses, roles. Categorized and structured."
-
-3. **Review & Approve** (20s) — "Human-in-the-loop. Every statement is categorized and expandable. Nothing deploys without explicit approval. This is governance by design."
-
-4. **Deploy** (30s) — "One click to execute. Real-time success/failure tracking per statement."
-
-5. **Validate** (30s) — "Post-deploy verification — confirms every object actually exists in Snowflake. Full audit report you can export."
-
-### Close (30 seconds)
-> "**Before:** days of manual SQL, inconsistent setups, no validation.
-> **After:** minutes, repeatable, governed, AI-assisted, fully validated.
-> Day-0 done right — every single time."
 
 ---
 
